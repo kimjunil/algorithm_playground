@@ -3,7 +3,7 @@
 # 주어지는 키는 100을 넘지 않는 자연수이며, 아홉 난쟁이의 키는 모두 다르며, 가능한 정답이 여러 가지인 경우에는 아무거나 출력한다
 # (9개의 숫자 중 합이 100이 되는 7개의 수를 찾아라)
 
-arr = [input() for x in 9]
+arr = [int(input()) for x in range(9)]
 total = sum(arr)
 
 for i in range(len(arr)-1):
